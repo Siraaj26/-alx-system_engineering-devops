@@ -1,4 +1,9 @@
-# 0x0B. SSH 
+# 0x0B. SSH
 
-- This directory contains files created in response to tasks set forth in Holberton student project "0x0B. SSH". 
-- These scripts demonstrate an introduction to RSA key generation and client configurations. 
+## Learning Objectives
+- What is a server
+- Where servers usually live
+- What is SSH
+- How to create an SSH RSA key pair
+- How to connect to a remote host using an SSH RSA key pair
+- The advantage of using #!/usr/bin/env bash instead of /bin/bash

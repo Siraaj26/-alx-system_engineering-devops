@@ -49,5 +49,5 @@ backend letsencrypt-backend
 backend web_servers
 	balance	roundrobin
 	mode	http
-	server	1115-web-01 35.175.130.28:80
-	server	1115-web-02 54.237.116.180:80
+	server	1115-web-01 35.175.130.28:80 check
+	server	1115-web-02 54.237.116.180:80 check
